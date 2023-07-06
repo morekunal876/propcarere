@@ -51,7 +51,7 @@
 			<div class="navbar-nav ml-auto py-0">
 				<a href="index.php" class="nav-item nav-link active">Home</a>
 				<a href="about.php" class="nav-item nav-link">About</a>
-				<a href="car_details.php" class="nav-item nav-link">Cars</a>
+				<a href="car_details.php" class="nav-item nav-link">Car Details</a>
 				<a href="contact.php" class="nav-item nav-link">Contact</a>
 			</div>
 		</div>
@@ -96,20 +96,9 @@
 								<label for="cars" >Select A Car</label>
 												<option value="0">Select Vehical</option>
 												<option value="Nexa Fronx">Nexa Fronx</option>
+												<option value="Wagon-R">Wagon-R</option>
 												<option value="Swift">Swift</option>
 												<option value="Renault Tribber">Renault Tribber</option>
-												<option value="Inova crysta">Inova crysta</option>
-												<option value="Creta">Creta</option>
-												<option value="Thar">Thar</option>
-												<option value="I20">I20</option>
-												<option value="Scarpio">Scarpio</option>
-												<option value="Ertiga">Ertiga</option>
-												<option value="Tiago">Tiago</option>
-												<option value="Baleno">Baleno</option>
-												<option value="Tigor">Tigor</option>
-												<option value="Punch">Punch</option>
-												<option value="Nexon">Nexon</option>
-												<option value="Kia Carens">Kia Carens</option>
 							</select>
 						</div>
 						<div class="col-xl-2 col-lg-4 col-md-6 px-2">
@@ -144,22 +133,11 @@
 
 										<div class="col-6 form-group">
 											<select class="custom-select px-4 mb-3 radius" style="height: 50px;" name="vehicle">
-												<option value="0">Select Vehical</option>
+												<option value="0">--Select Vehical---</option>
 												<option value="Nexa Fronx">Nexa Fronx</option>
+												<option value="Wagon-R">Wagon-R</option>
 												<option value="Swift">Swift</option>
 												<option value="Renault Tribber">Renault Tribber</option>
-												<option value="Inova crysta">Inova crysta</option>
-												<option value="Creta">Creta</option>
-												<option value="Thar">Thar</option>
-												<option value="I20">I20</option>
-												<option value="Scarpio">Scarpio</option>
-												<option value="Ertiga">Ertiga</option>
-												<option value="Tiago">Tiago</option>
-												<option value="Baleno">Baleno</option>
-												<option value="Tigor">Tigor</option>
-												<option value="Punch">Punch</option>
-												<option value="Nexon">Nexon</option>
-												<option value="Kia Carens">Kia Carens</option>
 											</select>
 										</div>
 
@@ -351,7 +329,7 @@
                             </div>
                         </div>        
             <div class="modal-button-container">
-                    <button id="openModalBtn3" class="btn btn-primary px-3 radius" onclick="openModal()">RS 4999/Day</button>
+                    <button id="openModalBtn3" class="btn btn-primary px-3 radius" onclick="openModal()">RS 3999/Day</button>
             </div>
                 </div>
                     </div>
@@ -475,7 +453,7 @@
                             </div>
                         </div>        
             <div class="modal-button-container">
-                    <button id="openModalBtn3" class="btn btn-primary px-3 radius" onclick="openModal()">RS 4999/Day</button>
+                    <button id="openModalBtn3" class="btn btn-primary px-3 radius" onclick="openModal()">RS 3999/Day</button>
             </div>
                 </div>
                     </div>
@@ -802,7 +780,13 @@
           								<p>Shop No 68, western Avenue, Shankar Kalat Nagar, Wakad, Pimpri-Chinchwad, Maharashtra 411057</p>
           							</div>
           						</div>
-                        
+                        <!-- <div class="d-flex mb-3">
+                            <i class="fa fa-2x fa-map-marker-alt text-primary flex-shrink-0 mr-3"></i>
+                            <div class="mt-n1">
+                                <h5 class="text-light">Branch Office</h5>
+                                <p>123 Street, New York, USA</p>
+                            </div>
+                          </div> -->
                           <div class="d-flex mb-3">
                           	<i class="fa fa-2x fa-envelope-open text-primary flex-shrink-0 mr-3"></i>
                           	<div class="mt-n1">
@@ -936,14 +920,14 @@
     $mail->isSMTP();                                            //Send using SMTP
     $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-    $mail->Username   = 'harishmane2023@gmail.com';                     //SMTP username
-    $mail->Password   = 'kpwrpfeikymoxfkq';                               //SMTP password
+    $mail->Username   = 'kunalmore875@gmail.com';                     //SMTP username
+    $mail->Password   = 'uhvtxagylwlujboo';                               //SMTP password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
     $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
     //Recipients
-    $mail->setFrom('harishmane2023@gmail.com', 'Mailer');
-    $mail->addAddress('harishmane2023@gmail.com', 'Joe User');     //Add a recipient
+    $mail->setFrom('kunalmore875@gmail.com', 'Mailer');
+    $mail->addAddress('kunalmore875@gmail.com', 'Joe User');     //Add a recipient
     
 
     
@@ -995,14 +979,14 @@ if (isset($_POST['sendCont']))
     $mail->isSMTP();                                            //Send using SMTP
     $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-    $mail->Username   = 'harishmane2023@gmail.com';                     //SMTP username
-    $mail->Password   = 'kpwrpfeikymoxfkq';                               //SMTP password
+    $mail->Username   = 'kunalmore875@gmail.com';                     //SMTP username
+    $mail->Password   = 'uhvtxagylwlujboo';                               //SMTP password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
     $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
     //Recipients
-    $mail->setFrom('harishmane2023@gmail.com', 'Mailer');
-    $mail->addAddress('harishmane2023@gmail.com', 'Joe User');     //Add a recipient
+    $mail->setFrom('kunalmore875@gmail.com', 'Mailer');
+    $mail->addAddress('kunalmore875@gmail.com', 'Joe User');     //Add a recipient
     
 
     
@@ -1048,14 +1032,14 @@ if (isset($_POST['sendCallBack']))
     $mail->isSMTP();                                            //Send using SMTP
     $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-    $mail->Username   = 'harishmane2023@gmail.com';                     //SMTP username
-    $mail->Password   = 'kpwrpfeikymoxfkq';                               //SMTP password
+    $mail->Username   = 'kunalmore875@gmail.com';                     //SMTP username
+    $mail->Password   = 'uhvtxagylwlujboo';                               //SMTP password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
     $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
     //Recipients
-    $mail->setFrom('harishmane2023@gmail.com', 'Mailer');
-    $mail->addAddress('harishmane2023@gmail.com', 'Joe User');     //Add a recipient
+    $mail->setFrom('kunalmore875@gmail.com', 'Mailer');
+    $mail->addAddress('kunalmore875@gmail.com', 'Joe User');     //Add a recipient
     
 
     
